@@ -1,4 +1,5 @@
 Titanic - Machine Learning from Disaster
+
 ⸺ The legendary Titanic ML competition in Kaggle
 
 
@@ -12,7 +13,8 @@ In this challenge, it is asked to build a predictive model that answers the ques
 
 Simply, use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
 
-Dataset Description
+Dataset Description:
+
 Training set has 891 rows and test set has 418 rows,
 Training set have 12 features and test set have 11 features. 
 One extra feature in training set is Survived feature, which is the target variable.
@@ -20,24 +22,25 @@ One extra feature in training set is Survived feature, which is the target varia
 PassengerId is the unique id of the row and it doesn't have any effect on target
 
 Survived is the target variable we are trying to predict (0 or 1):
-1 = Survived
+1 = Survived,
 0 = Not Survived
 
 Pclass (Passenger Class) is the socio-economic status of the passenger and it is a categorical ordinal feature which has 3 unique values (1, 2 or 3):
-1 = Upper Class
-2 = Middle Class
+1 = Upper Class,
+2 = Middle Class,
 3 = Lower Class
 
-Name, Sex and Age are self-explanatory
-SibSp is the total number of the passengers' siblings and spouse
-Parch is the total number of the passengers' parents and children
-Ticket is the ticket number of the passenger
-Fare is the passenger fare
+Name, Sex and Age are self-explanatory:
+
+SibSp is the total number of the passengers' siblings and spouse,
+Parch is the total number of the passengers' parents and children,
+Ticket is the ticket number of the passenger,
+Fare is the passenger fare,
 Cabin is the cabin number of the passenger
 
 Embarked is port of embarkation and it is a categorical feature which has 3 unique values (C, Q or S):
-C = Cherbourg
-Q = Queenstown
+C = Cherbourg,
+Q = Queenstown,
 S = Southampton
 
 Proposed Approach: 
